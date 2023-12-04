@@ -1,6 +1,6 @@
 """
 Task 2 of the Advent of Code Challenge 2023
-Explores the analysis of given text data.
+Explores the segmented analysis of given text data.
 """
 
 import os
@@ -10,7 +10,6 @@ import re
 ROOTDIR = os.path.join(cfg.PRJDIR, 'solutions_2023')
 DATDIR = os.path.join(ROOTDIR, 'data_2023')
 DATAPATH = os.path.join(DATDIR, 'data_task_2')
-DATAPATHTEST = os.path.join(DATDIR, 'data_task_2_test')
 
 
 # PART ONE
